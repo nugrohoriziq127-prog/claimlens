@@ -1,0 +1,272 @@
+[
+ {
+  "claim": "Vaksin COVID-19 mengandung microchip untuk melacak warga yang divaksin",
+  "keywords": "vaksin covid microchip chip pelacak suntik",
+  "label": "HOAKS",
+  "source": "TurnBackHoax (Mafindo)",
+  "source_url": "https://turnbackhoax.id/?s=vaksin+microchip",
+  "summary": "Tidak ada microchip dalam vaksin COVID-19. Klaim ini sudah dibantah Mafindo, AFP, dan Kemenkes; bahan vaksin tercantum resmi di dokumen BPOM.",
+  "summary_en": "There is no microchip in COVID-19 vaccines. Debunked by Mafindo, AFP, and the Indonesian Ministry of Health; vaccine ingredients are listed in official BPOM documents."
+ },
+ {
+  "claim": "Minum air kelapa muda bisa menyembuhkan COVID-19",
+  "keywords": "air kelapa muda sembuh corona covid obat",
+  "label": "HOAKS",
+  "source": "TurnBackHoax (Mafindo)",
+  "source_url": "https://turnbackhoax.id/?s=air+kelapa+covid",
+  "summary": "Air kelapa baik untuk hidrasi tetapi tidak menyembuhkan COVID-19. Tidak ada bukti klinis; klaim ini masuk daftar hoaks kesehatan Kemenkes.",
+  "summary_en": "Coconut water is fine for hydration but does not cure COVID-19. No clinical evidence; listed among health hoaxes by the Ministry of Health."
+ },
+ {
+  "claim": "Bawang putih dan bawang merah bisa membunuh virus corona dalam tubuh",
+  "keywords": "bawang putih merah virus corona sembuh herbal",
+  "label": "HOAKS",
+  "source": "CekFakta Tempo",
+  "source_url": "https://cekfakta.tempo.co/search?q=bawang+putih+virus+corona",
+  "summary": "WHO dan pemeriksa fakta menyatakan tidak ada bukti bawang putih atau bawang merah membunuh virus corona atau menyembuhkan COVID-19.",
+  "summary_en": "WHO and fact-checkers state there is no evidence garlic or shallots kill the coronavirus or cure COVID-19."
+ },
+ {
+  "claim": "Pendaftaran bansos tunai dibuka lewat tautan WhatsApp, isi data dan transfer biaya admin",
+  "keywords": "bansos bantuan sosial daftar whatsapp link biaya admin penipuan",
+  "label": "HOAKS",
+  "source": "Kominfo - Konten Hoaks",
+  "source_url": "https://www.kominfo.go.id/content/all/laporan_isu_hoaks",
+  "summary": "Penipuan. Pendaftaran bansos resmi hanya lewat pemerintah daerah dan Kemensos, tidak pernah memungut biaya admin lewat tautan WhatsApp.",
+  "summary_en": "Scam. Official social-aid registration runs only through local government and the Ministry of Social Affairs, never via WhatsApp links charging admin fees."
+ },
+ {
+  "claim": "Lowongan kerja BUMN lewat Telegram meminta pelamar membayar biaya seleksi",
+  "keywords": "lowongan kerja bumn telegram bayar biaya seleksi penipuan loker",
+  "label": "HOAKS",
+  "source": "TurnBackHoax (Mafindo)",
+  "source_url": "https://turnbackhoax.id/?s=lowongan+bumn+telegram",
+  "summary": "Penipuan lowongan kerja. Rekrutmen BUMN resmi hanya diumumkan lewat situs perusahaan dan tidak memungut biaya apa pun dari pelamar.",
+  "summary_en": "Job scam. Official state-owned company recruitment is announced on company websites and never charges applicants any fee."
+ },
+ {
+  "claim": "Gempa megathrust besar pasti terjadi di Jawa pada tanggal tertentu menurut pesan berantai",
+  "keywords": "gempa megathrust prediksi tanggal pesan berantai bmkg",
+  "label": "HOAKS",
+  "source": "BMKG via CekFakta",
+  "source_url": "https://cekfakta.tempo.co/search?q=megathrust",
+  "summary": "BMKG menegaskan gempa bumi tidak bisa diprediksi tanggalnya. Megathrust adalah potensi jangka panjang, bukan ramalan kejadian pada tanggal tertentu.",
+  "summary_en": "BMKG states earthquakes cannot be predicted by date. Megathrust is a long-term potential, not a scheduled event."
+ },
+ {
+  "claim": "Video gelombang tsunami raksasa yang viral adalah kejadian terbaru di Indonesia",
+  "keywords": "video tsunami viral lama daur ulang jepang",
+  "label": "HOAKS",
+  "source": "TurnBackHoax (Mafindo)",
+  "source_url": "https://turnbackhoax.id/?s=video+tsunami+lama",
+  "summary": "Video lama yang didaur ulang. Klip serupa berasal dari tsunami Jepang 2011 atau kejadian lama lain, bukan peristiwa terbaru di Indonesia.",
+  "summary_en": "Recycled old footage. Similar clips come from the 2011 Japan tsunami or other past events, not a recent incident in Indonesia."
+ },
+ {
+  "claim": "Uang pecahan Rp75.000 edisi khusus bisa ditukarkan berkali-kali lipat dari nominalnya",
+  "keywords": "uang 75000 edisi khusus tukar lipat nominal rupiah",
+  "label": "HOAKS",
+  "source": "Bank Indonesia via TurnBackHoax",
+  "source_url": "https://turnbackhoax.id/?s=uang+75000+ditukar",
+  "summary": "Uang Peringatan Kemerdekaan Rp75.000 adalah alat pembayaran sah senilai nominalnya. Klaim nilai tukar berkali lipat adalah keliru.",
+  "summary_en": "The Rp75,000 independence commemorative note is legal tender at face value. Claims of multiplied exchange value are false."
+ },
+ {
+  "claim": "Makanan dan minuman kemasan plastik yang dipanaskan pasti menyebabkan kanker",
+  "keywords": "plastik kemasan panaskan kanker makanan minuman",
+  "label": "MERAGUKAN",
+  "source": "CekFakta Liputan6",
+  "source_url": "https://www.liputan6.com/cek-fakta/search?q=plastik+kanker",
+  "summary": "Klaim berlebihan. BPOM menyatakan kemasan food grade aman sesuai ketentuan; risiko muncul pada plastik non-food-grade dan pemanasan ekstrem, bukan kepastian kanker.",
+  "summary_en": "Overstated. BPOM says food-grade packaging is safe as regulated; risk relates to non-food-grade plastics and extreme heating, not certain cancer."
+ },
+ {
+  "claim": "Semua guru dan PNS akan digantikan AI dalam waktu dekat",
+  "keywords": "pns guru diganti ai robot kebijakan pemerintah",
+  "label": "MERAGUKAN",
+  "source": "CekFakta Tempo",
+  "source_url": "https://cekfakta.tempo.co/search?q=pns+diganti+ai",
+  "summary": "Tidak ada kebijakan seperti itu. Pemerintah justru mengatur pemanfaatan AI sebagai alat bantu ASN, bukan penggantian massal guru dan PNS.",
+  "summary_en": "No such policy exists. The government regulates AI as an assistant tool for civil servants, not mass replacement of teachers and officials."
+ },
+ {
+  "claim": "Harga BBM bersubsidi selalu naik setiap awal bulan",
+  "keywords": "harga bbm naik awal bulan pertalite pertamina",
+  "label": "MERAGUKAN",
+  "source": "CekFakta Kompas",
+  "source_url": "https://www.kompas.com/cekfakta/search?q=harga+bbm+naik",
+  "summary": "Tidak selalu. Penyesuaian harga BBM mengikuti formula dan keputusan berkala; ada bulan tanpa perubahan dan BBM subsidi diatur terpisah.",
+  "summary_en": "Not always. Fuel price adjustments follow a formula and periodic decisions; some months have no change and subsidized fuel is regulated separately."
+ },
+ {
+  "claim": "Foto dan video di media sosial membuktikan bumi datar karena horizon selalu lurus",
+  "keywords": "bumi datar horizon foto video sains",
+  "label": "HOAKS",
+  "source": "TurnBackHoax (Mafindo)",
+  "source_url": "https://turnbackhoax.id/?s=bumi+datar",
+  "summary": "Klaim bumi datar bertentangan dengan bukti sains dan pengamatan langsung; horizon lurus pada foto disebabkan bidang pandang dan lensa, bukan bentuk bumi.",
+  "summary_en": "Flat-earth claims contradict scientific evidence and direct observation; straight horizons in photos result from field of view and lens, not Earth's shape."
+ },
+ {
+  "claim": "Indonesia resmi menjadi anggota penuh BRICS pada Januari 2025",
+  "keywords": "indonesia anggota brics penuh januari 2025",
+  "label": "VALID",
+  "source": "Kemlu RI / BRICS",
+  "source_url": "https://kemlu.go.id/",
+  "summary": "Benar. Indonesia diterima sebagai anggota penuh BRICS dan keanggotaannya berlaku efektif mulai Januari 2025, diumumkan resmi oleh pemerintah dan presidensi BRICS.",
+  "summary_en": "True. Indonesia was accepted as a full BRICS member effective January 2025, officially announced by the government and the BRICS presidency."
+ },
+ {
+  "claim": "Program Makan Bergizi Gratis mulai berjalan pada Januari 2025",
+  "keywords": "makan bergizi gratis program januari 2025 sekolah",
+  "label": "VALID",
+  "source": "Badan Gizi Nasional",
+  "source_url": "https://www.bgn.go.id/",
+  "summary": "Benar. Program Makan Bergizi Gratis diluncurkan bertahap mulai 6 Januari 2025 untuk anak sekolah dan kelompok sasaran lain di berbagai daerah.",
+  "summary_en": "True. The Free Nutritious Meals program rolled out in stages starting 6 January 2025 for schoolchildren and other target groups across regions."
+ },
+ {
+  "claim": "Piala Dunia 2026 diselenggarakan di Amerika Serikat, Kanada, dan Meksiko",
+  "keywords": "piala dunia 2026 amerika kanada meksiko fifa",
+  "label": "VALID",
+  "source": "FIFA",
+  "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
+  "summary": "Benar. FIFA World Cup 2026 digelar di tiga negara Amerika Utara dengan 48 tim peserta, format terbesar sepanjang sejarah Piala Dunia.",
+  "summary_en": "True. The FIFA World Cup 2026 is hosted by the USA, Canada, and Mexico with 48 teams, the largest format in World Cup history."
+ },
+ {
+  "claim": "Ibu kota negara Indonesia berpindah ke Nusantara berdasarkan Undang-Undang Nomor 3 Tahun 2022",
+  "keywords": "ibu kota nusantara ikn undang undang 2022 pindah",
+  "label": "VALID",
+  "source": "Sekretariat Negara",
+  "source_url": "https://www.setneg.go.id/",
+  "summary": "Benar. UU Nomor 3 Tahun 2022 tentang Ibu Kota Negara menetapkan Nusantara di Kalimantan Timur sebagai ibu kota baru, dengan perpindahan bertahap.",
+  "summary_en": "True. Law No. 3 of 2022 establishes Nusantara in East Kalimantan as the new capital, with a phased relocation."
+ },
+ {
+  "claim": "Gempa magnitudo 5,6 mengguncang Cianjur pada 21 November 2022 dan menelan ratusan korban jiwa",
+  "keywords": "gempa cianjur 2022 magnitudo korban bnpb",
+  "label": "VALID",
+  "source": "BMKG / BNPB",
+  "source_url": "https://www.bmkg.go.id/",
+  "summary": "Benar. Gempa dangkal magnitudo 5,6 terjadi di Cianjur, Jawa Barat, 21 November 2022; BNPB mencatat ratusan korban meninggal dan ribuan rumah rusak.",
+  "summary_en": "True. A shallow magnitude 5.6 earthquake struck Cianjur, West Java, on 21 November 2022; BNPB recorded hundreds of deaths and thousands of damaged homes."
+ },
+ {
+  "claim": "Bank Indonesia meluncurkan QRIS sebagai standar QR pembayaran nasional pada 2019",
+  "keywords": "qris bank indonesia qr pembayaran 2019",
+  "label": "VALID",
+  "source": "Bank Indonesia",
+  "source_url": "https://www.bi.go.id/",
+  "summary": "Benar. QRIS diluncurkan Bank Indonesia pada 17 Agustus 2019 dan wajib digunakan seluruh penyelenggara pembayaran QR mulai 1 Januari 2020.",
+  "summary_en": "True. Bank Indonesia launched QRIS on 17 August 2019 and made it mandatory for all QR payment providers from 1 January 2020."
+ },
+ {
+  "claim": "Minum kopi tiga cangkir sehari pasti memperpanjang umur menurut pesan kesehatan viral",
+  "keywords": "kopi cangkir umur panjang kesehatan penelitian",
+  "label": "MERAGUKAN",
+  "source": "CekFakta Liputan6",
+  "source_url": "https://www.liputan6.com/cek-fakta/search?q=kopi+umur+panjang",
+  "summary": "Penelitian memang menemukan kaitan konsumsi kopi moderat dengan risiko kematian lebih rendah, tetapi hubungannya korelasi, bukan kepastian memperpanjang umur.",
+  "summary_en": "Studies link moderate coffee intake with lower mortality risk, but that is correlation, not a guarantee of longer life."
+ },
+ {
+  "claim": "Anak yang bermain game online pasti mengalami kerusakan otak permanen",
+  "keywords": "anak game online kerusakan otak permanen",
+  "label": "MERAGUKAN",
+  "source": "CekFakta Tempo",
+  "source_url": "https://cekfakta.tempo.co/search?q=game+online+otak",
+  "summary": "Berlebihan. Riset menunjukkan dampak bergantung durasi dan konteks; tidak ada bukti kerusakan otak permanen pada pemakaian wajar.",
+  "summary_en": "Overstated. Research shows effects depend on duration and context; there is no evidence of permanent brain damage from reasonable play."
+ },
+ {
+  "claim": "Tautan pendaftaran kuota internet gratis dari Kemendikbud dibagikan lewat grup WhatsApp",
+  "keywords": "kuota internet gratis kemendikbud whatsapp tautan daftar",
+  "label": "HOAKS",
+  "source": "Kominfo - Konten Hoaks",
+  "source_url": "https://www.kominfo.go.id/content/all/laporan_isu_hoaks",
+  "summary": "Hoaks berulang sejak masa pandemi. Bantuan kuota resmi disalurkan lewat sekolah dan operator, bukan tautan pendaftaran acak di grup WhatsApp.",
+  "summary_en": "Recurring hoax since the pandemic. Official data quotas are distributed through schools and operators, not random registration links in WhatsApp groups."
+ },
+ {
+  "claim": "Foto keramaian pasar yang viral membuktikan ekonomi Indonesia sedang runtuh",
+  "keywords": "foto pasar viral ekonomi runtuh bps",
+  "label": "MERAGUKAN",
+  "source": "TurnBackHoax (Mafindo)",
+  "source_url": "https://turnbackhoax.id/?s=foto+pasar+ekonomi",
+  "summary": "Konteks hilang. Foto keramaian atau antrean satu lokasi tidak membuktikan kondisi ekonomi nasional; data resmi BPS menunjukkan indikator yang beragam.",
+  "summary_en": "Missing context. A photo of one crowded market or queue does not prove national economic collapse; official BPS data shows mixed indicators."
+ },
+ {
+  "claim": "Sertifikat tanah elektronik resmi diberlakukan oleh Kementerian ATR/BPN",
+  "keywords": "sertifikat tanah elektronik atr bpn digital",
+  "label": "VALID",
+  "source": "Kementerian ATR/BPN",
+  "source_url": "https://www.atrbpn.go.id/",
+  "summary": "Benar. Sertifikat tanah elektronik diterbitkan bertahap oleh Kementerian ATR/BPN sebagai bagian digitalisasi layanan pertanahan, dengan dokumen fisik lama tetap sah.",
+  "summary_en": "True. Electronic land certificates are issued in stages by the Ministry of ATR/BPN as part of land-service digitalization; old physical documents remain valid."
+ },
+ {
+  "claim": "Pesan suara pejabat yang viral meminta warga mentransfer uang untuk bantuan bencana",
+  "keywords": "pesan suara pejabat transfer uang bantuan bencana penipuan ai",
+  "label": "HOAKS",
+  "source": "TurnBackHoax (Mafindo)",
+  "source_url": "https://turnbackhoax.id/?s=pesan+suara+pejabat+transfer",
+  "summary": "Penipuan memakai rekaman atau AI voice cloning. Pejabat dan instansi tidak pernah meminta transfer uang pribadi untuk bantuan bencana.",
+  "summary_en": "Scam using recordings or AI voice cloning. Officials and agencies never ask for personal money transfers for disaster aid."
+ },
+ {
+  "claim": "Warga bisa mengecek penerima bansos secara resmi di situs cekbansos Kemensos",
+  "keywords": "cek bansos kemensos situs resmi penerima bantuan",
+  "label": "VALID",
+  "source": "Kemensos RI",
+  "source_url": "https://cekbansos.kemensos.go.id/",
+  "summary": "Benar. Situs cekbansos.kemensos.go.id adalah kanal resmi untuk memeriksa status penerima bantuan sosial dengan nama dan wilayah.",
+  "summary_en": "True. cekbansos.kemensos.go.id is the official channel to check social-aid recipient status by name and region."
+ },
+ {
+  "claim": "Semua kendaraan wajib memasang RFID agar bisa membeli BBM bersubsidi mulai bulan depan",
+  "keywords": "rfid wajib bbm subsidi mypertamina kendaraan",
+  "label": "MERAGUKAN",
+  "source": "CekFakta Kompas",
+  "source_url": "https://www.kompas.com/cekfakta/search?q=rfid+bbm+subsidi",
+  "summary": "Tidak akurat. Pembelian BBM subsidi memakai pendaftaran QR MyPertamina untuk kendaraan tertentu; kewajiban RFID untuk semua kendaraan tidak pernah diumumkan.",
+  "summary_en": "Inaccurate. Subsidized fuel purchases use MyPertamina QR registration for certain vehicles; a universal RFID mandate has never been announced."
+ },
+ {
+  "claim": "Video latihan militer negara lain diklaim sebagai persiapan perang Indonesia",
+  "keywords": "video latihan militer perang indonesia konteks salah",
+  "label": "HOAKS",
+  "source": "TurnBackHoax (Mafindo)",
+  "source_url": "https://turnbackhoax.id/?s=video+latihan+militer",
+  "summary": "Konteks salah. Video tersebut adalah latihan militer negara lain dari tahun sebelumnya, tidak berkaitan dengan Indonesia atau persiapan perang.",
+  "summary_en": "Wrong context. The footage shows another country's military exercise from a previous year, unrelated to Indonesia or war preparations."
+ },
+ {
+  "claim": "Tarif dasar listrik rumah tangga naik diam-diam tanpa pengumuman resmi",
+  "keywords": "tarif listrik naik diam diam pln tagihan",
+  "label": "MERAGUKAN",
+  "source": "CekFakta Liputan6",
+  "source_url": "https://www.liputan6.com/cek-fakta/search?q=tarif+listrik+naik",
+  "summary": "Tarif listrik ditetapkan pemerintah per triwulan dan diumumkan; kenaikan tagihan individual umumnya karena pemakaian, bukan kenaikan tarif diam-diam.",
+  "summary_en": "Electricity tariffs are set by the government quarterly and announced; individual bill increases usually come from usage, not secret tariff hikes."
+ },
+ {
+  "claim": "Indonesia menempati peringkat atas adopsi kripto global menurut laporan Chainalysis",
+  "keywords": "indonesia peringkat adopsi kripto chainalysis global",
+  "label": "VALID",
+  "source": "Chainalysis / Bappebti",
+  "source_url": "https://www.chainalysis.com/blog/global-crypto-adoption-index/",
+  "summary": "Benar. Indonesia konsisten berada di jajaran atas Global Crypto Adoption Index Chainalysis dalam beberapa tahun terakhir.",
+  "summary_en": "True. Indonesia consistently ranks near the top of the Chainalysis Global Crypto Adoption Index in recent years."
+ },
+ {
+  "claim": "Mengisi daya ponsel semalaman pasti membuat baterai meledak",
+  "keywords": "cas ponsel semalaman baterai meledak charger",
+  "label": "MERAGUKAN",
+  "source": "CekFakta Tempo",
+  "source_url": "https://cekfakta.tempo.co/search?q=cas+ponsel+semalaman+meledak",
+  "summary": "Berlebihan. Ponsel modern memiliki pemutus arus otomatis; risiko kebakaran umumnya dari charger palsu, baterai rusak, atau ventilasi buruk, bukan durasi semalaman itu sendiri.",
+  "summary_en": "Overstated. Modern phones cut off charging automatically; fire risk usually comes from counterfeit chargers, damaged batteries, or poor ventilation, not overnight duration itself."
+ }
+]

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ClaimLens - Claim Triage for Social Media Claims</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Segoe UI", system-ui, sans-serif; background: #f4f6fb; color: #16213a; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 18px 56px; }
+  header h1 { margin: 0; font-size: 34px; letter-spacing: -0.5px; }
+  header h1 span { color: #2456d6; }
+  header p { margin: 8px 0 0; color: #4b5878; line-height: 1.55; }
+  .card { background: #fff; border: 1px solid #dde3f0; border-radius: 14px; padding: 20px; margin-top: 22px; box-shadow: 0 4px 18px rgba(22,33,58,.05); }
+  textarea { width: 100%; min-height: 110px; border: 1px solid #c6cfe2; border-radius: 10px; padding: 12px; font-size: 15px; font-family: inherit; resize: vertical; }
+  button { margin-top: 12px; background: #2456d6; color: #fff; border: 0; border-radius: 10px; padding: 12px 22px; font-size: 15px; font-weight: 600; cursor: pointer; }
+  button:disabled { opacity: .55; cursor: wait; }
+  .chips { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { border: 1px solid #2456d6; color: #2456d6; background: #eef3ff; border-radius: 999px; padding: 6px 12px; font-size: 13px; cursor: pointer; margin-top: 0; }
+  .verdict { display: none; margin-top: 22px; }
+  .badge { display: inline-block; padding: 6px 14px; border-radius: 999px; font-weight: 700; font-size: 15px; color: #fff; }
+  .b-SESUAI { background: #1d9e57; }
+  .b-TIDAK { background: #d63a2f; }
+  .b-MERAGUKAN { background: #e0a100; }
+  .b-UNKNOWN { background: #67748e; }
+  .score { color: #4b5878; font-size: 13px; margin-left: 8px; }
+  .verdict p { line-height: 1.6; }
+  .ref { border-top: 1px solid #edf0f7; padding: 10px 0; }
+  .ref a { color: #2456d6; text-decoration: none; font-weight: 600; }
+  .ref small { color: #67748e; }
+  footer { margin-top: 28px; color: #67748e; font-size: 13px; line-height: 1.6; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Claim<span>Lens</span></h1>
+    <p>Paste a claim from social media or a forwarded message. ClaimLens matches it
+       against a corpus of verified fact-checks ({{ corpus_size }} references) and
+       returns a verdict with its source, not a black-box guess. Claims are checked
+       in Bahasa Indonesia, where these hoaxes actually spread.</p>
+  </header>
+
+  <div class="card">
+    <textarea id="claim" placeholder="Paste a claim here, e.g.: Vaksin COVID-19 mengandung microchip untuk melacak warga..."></textarea>
+    <button id="go">Check Claim</button>
+    <div class="chips">
+      <button class="chip" data-q="Vaksin COVID-19 mengandung microchip untuk melacak warga">Hoax example: vaccine microchip</button>
+      <button class="chip" data-q="Indonesia resmi menjadi anggota penuh BRICS pada Januari 2025">True example: BRICS membership</button>
+      <button class="chip" data-q="Benarkah minum kopi tiga cangkir sehari pasti memperpanjang umur?">Uncertain example: coffee</button>
+    </div>
+
+    <div class="verdict" id="result">
+      <span class="badge" id="badge"></span><span class="score" id="score"></span>
+      <p id="explanation"></p>
+      <div id="refs"></div>
+    </div>
+  </div>
+
+  <footer>
+    ClaimLens is a triage aid, not a final arbiter of truth. Every verdict links to
+    the fact-checker behind it (Mafindo/TurnBackHoax, CekFakta, Kominfo, and official
+    institutions) so users can verify for themselves. Built for HackGlobal 2026,
+    Track 4: Civic and real-world impact.
+  </footer>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const VERDICT_EN = {
+  "SESUAI": "MATCHES VERIFIED FACT",
+  "TIDAK SESUAI": "DEBUNKED",
+  "MERAGUKAN": "UNCERTAIN",
+  "TIDAK DITEMUKAN": "NOT FOUND"
+};
+const LABEL_EN = {
+  "HOAKS": "debunked hoax",
+  "VALID": "verified true",
+  "MERAGUKAN": "misleading / partial"
+};
+async function check(claim) {
+  const btn = $("go"); btn.disabled = true; btn.textContent = "Checking...";
+  try {
+    const res = await fetch("/api/check", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ claim })
+    });
+    const data = await res.json();
+    if (!res.ok) { alert(data.error || "Something went wrong"); return; }
+    const box = $("result"); box.style.display = "block";
+    const badge = $("badge");
+    badge.textContent = VERDICT_EN[data.verdict] || data.verdict;
+    badge.className = "badge " + (
+      data.verdict === "SESUAI" ? "b-SESUAI" :
+      data.verdict === "TIDAK SESUAI" ? "b-TIDAK" :
+      data.verdict === "MERAGUKAN" ? "b-MERAGUKAN" : "b-UNKNOWN");
+    $("score").textContent = data.score ? "similarity score " + data.score : "";
+    $("explanation").textContent = data.explanation;
+    $("refs").innerHTML = (data.references || []).map(r =>
+      `<div class="ref"><a href="${r.source_url}" target="_blank" rel="noopener">${r.source}</a>
+       <small> - corpus label: ${LABEL_EN[r.label] || r.label}, score ${r.score}</small><br>${r.claim}</div>`
+    ).join("");
+  } finally {
+    btn.disabled = false; btn.textContent = "Check Claim";
+  }
+}
+$("go").addEventListener("click", () => {
+  const v = $("claim").value.trim();
+  if (v.length >= 8) check(v); else alert("Claim too short.");
+});
+document.querySelectorAll(".chip").forEach(c =>
+  c.addEventListener("click", () => { $("claim").value = c.dataset.q; check(c.dataset.q); }));
+</script>
+</body>
+</html>
